@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    min-height: 90vh;
+    background: #0b0432;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+#left, #right{
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 50px;
+    padding: 30px;
+    /* background-color: antiquewhite; */
+    border: 2px dashed #fff;
+}
+
+.list{
+    background-image:url('photo.jpg');
+    height: 145px;
+    width: 145px;
+    cursor: pointer;
+    margin: 25px;
+}
+
+button{
+   height: 40px;
+   width: 84px;
+   display: flex;
+   flex-direction: row;
+   border: 1px solid coral;
+}
+
+.btn{
+    background: #0b0432;
+    text-align: center;
+    height: 100px;
+}
+button{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 16px;
+    cursor: pointer;
+    border-radius: 3px;
+    width: 100px;
+}
+
+h1{
+    text-align: center;
+    padding: 20px;
+    background-color: #0b0432;
+    color: white;
+    text-transform:uppercase;
+}
+
+@media only screen and (max-width:1124px)
+{
+    #left, #right{
+        margin: 0 20px;
+    }
+
+    .list{
+        background-image:url('photo.jpg');
+        height: 150px;
+        width: 150px;
+        cursor: pointer;
+        margin: 25px;
+    }
+}
+
+@media only screen and (max-width:1023px)
+{
+    .list{
+        background-image:url('photo.jpg');
+        height: 130px;
+        width: 130px;
+        margin: 25px;
+    }
+}
+
+@media only screen and (max-width:943px)
+{
+    .list{
+        background-image:url('photo.jpg');
+        height: 110px;
+        width: 110px;
+        margin: 25px;
+    }
+}
+
+@media only screen and (max-width:863px)
+{
+    .list{
+        background-image:url('photo.jpg');
+        height: 80px;
+        width: 80px;
+        margin: 25px;
+    }
+}
+
+@media only screen and (max-width:464px)
+{
+    #left, #right{
+        margin: 0 10px;
+        width: 250px;
+        padding: 5px;
+        justify-content: center;
+    }
+
+    .list{
+        background-image:url('photo.jpg');
+        height: 100px;
+        width: 100px;
+        margin: 10px;
+    }
+}
+
+@media only screen and (max-width:740px)
+{
+    #left, #right{
+        margin: 0 10px;
+        width: 250px;
+        padding: 5px;
+        justify-content: center;
+    }
+
+    .list{
+        background-image:url('photo.jpg');
+        height: 100px;
+        width: 100px;
+        margin: 10px 6px;
+    }
+}
+
+@media only screen and (max-width:320px)
+{
+    #left, #right{
+        margin: 0 10px;
+        width: 250px;
+        padding: 5px;
+        justify-content: center;
+    }
+
+    .list{
+        background-image:url('photo.jpg');
+        height: 80px;
+        width: 80px;
+        margin: 5px;
+    }
+}
